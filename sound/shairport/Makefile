@@ -32,7 +32,7 @@ endef
 
 define Package/shairport
   $(Package/shairport/Default)
-  DEPENDS:= +libopenssl +libao +howl-utils
+  DEPENDS:= +libopenssl +libao +howl-utils +howl-mdnsresponder
 endef
 
 define Package/shairport/description
